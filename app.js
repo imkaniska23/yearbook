@@ -18,7 +18,7 @@ app.use(methodOverride("_method"));
 var con = mysql.createConnection({
   host: "localhost",
   user: "yearbook",
-  password: "LiteraryCircle12#$",
+  password: "password",
   database: "yearbook"
 });
 
